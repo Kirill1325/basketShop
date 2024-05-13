@@ -1,0 +1,928 @@
+{
+    "products": [
+        {
+            "category": "Shoes",
+            "id": "1",
+            "brandName": "Nike",
+            "model": "Ja 1",
+            "price": "120 €",
+            "onSale": "false",
+            "sizes": [
+                {
+                    "size": "35",
+                    "inBag": "false"
+                },
+                {
+                    "size": "35.5",
+                    "inBag": "false"
+                },
+                {
+                    "size": "36",
+                    "inBag": "false"
+                },
+                {
+                    "size": "36.5",
+                    "inBag": "false"
+                },
+                {
+                    "size": "37",
+                    "inBag": "false"
+                },
+                {
+                    "size": 37.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 38,
+                    "inBag": "false"
+                },
+                {
+                    "size": 39,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 41,
+                    "inBag": "false"
+                },
+                {
+                    "size": 42,
+                    "inBag": "false"
+                },
+                {
+                    "size": 43,
+                    "inBag": "false"
+                },
+                {
+                    "size": 44,
+                    "inBag": "false"
+                },
+                {
+                    "size": 45,
+                    "inBag": "false"
+                },
+                {
+                    "size": 46,
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/09134330-7af0-4f20-8a3f-30efa6729b3f/ja-1-day-basketball-shoes-bCx2W3.png",
+            "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/606a1c3e-5c81-4376-bbf1-2df26b8f5700/ja-1-day-basketball-shoes-bCx2W3.png",
+            "sliderPics": [
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/09134330-7af0-4f20-8a3f-30efa6729b3f/ja-1-day-basketball-shoes-bCx2W3.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/606a1c3e-5c81-4376-bbf1-2df26b8f5700/ja-1-day-basketball-shoes-bCx2W3.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9ca2b109-0c86-4e6c-9999-6f037b8158e3/ja-1-day-basketball-shoes-bCx2W3.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/137e853a-b818-4470-8c16-a27a4774d3fe/ja-1-day-basketball-shoes-bCx2W3.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3911163b-823d-4f50-8c71-8971ade15b8f/ja-1-day-basketball-shoes-bCx2W3.png"
+            ]
+        },
+        {
+            "category": "Shoes",
+            "id": 2,
+            "brandName": "Nike",
+            "model": "LeBron XXI",
+            "price": "200 €",
+            "onSale": "true",
+            "sizes": [
+                {
+                    "size": 35,
+                    "inBag": "false"
+                },
+                {
+                    "size": 35.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 38,
+                    "inBag": "false"
+                },
+                {
+                    "size": 41,
+                    "inBag": "false"
+                },
+                {
+                    "size": 42,
+                    "inBag": "false"
+                },
+                {
+                    "size": 42.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 43,
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ddf973d-e905-4362-8a2b-040e862bd273/lebron-xxi-basketball-shoes-DjB9tK.png",
+            "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/185116f3-9e57-4405-a9c4-851fbdeb36fc/lebron-xxi-basketball-shoes-DjB9tK.png",
+            "sliderPics": [
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ddf973d-e905-4362-8a2b-040e862bd273/lebron-xxi-basketball-shoes-DjB9tK.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/185116f3-9e57-4405-a9c4-851fbdeb36fc/lebron-xxi-basketball-shoes-DjB9tK.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f14064b6-10a3-468e-b24e-788106e6a9ed/lebron-xxi-basketball-shoes-DjB9tK.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/56f1807f-4974-4cc6-8cd7-8fe89607480b/lebron-xxi-basketball-shoes-DjB9tK.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/68985a5f-583e-4223-a679-0e50b6aa895c/lebron-xxi-basketball-shoes-DjB9tK.png"
+            ]
+        },
+        {
+            "category": "Shoes",
+            "id": 3,
+            "brandName": "Under Armour",
+            "model": "Curry 1",
+            "price": "150 €",
+            "onSale": "false",
+            "sizes": [
+                {
+                    "size": 35,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 38,
+                    "inBag": "false"
+                },
+                {
+                    "size": 39,
+                    "inBag": "false"
+                },
+                {
+                    "size": 42,
+                    "inBag": "false"
+                },
+                {
+                    "size": 44,
+                    "inBag": "false"
+                },
+                {
+                    "size": 46,
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://underarmour.scene7.com/is/image/Underarmour/3024397-400_DEFAULT?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850",
+            "imgHover": "https://underarmour.scene7.com/is/image/Underarmour/3024397-400_A?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850",
+            "sliderPics": [
+                "https://underarmour.scene7.com/is/image/Underarmour/3024397-400_DEFAULT?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850",
+                "https://underarmour.scene7.com/is/image/Underarmour/3024397-400_A?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850",
+                "https://underarmour.scene7.com/is/image/Underarmour/3024397-400_TOE?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850",
+                "https://underarmour.scene7.com/is/image/Underarmour/3024397-400_PAIR?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850",
+                "https://underarmour.scene7.com/is/image/Underarmour/3024397-400_SOLE?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850"
+            ]
+        },
+        {
+            "category": "Shoes",
+            "id": 4,
+            "brandName": "Adidas",
+            "model": "DAME 8",
+            "price": "900 €",
+            "onSale": "true",
+            "sizes": [
+                {
+                    "size": 35,
+                    "inBag": "false"
+                },
+                {
+                    "size": 35.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 38,
+                    "inBag": "false"
+                },
+                {
+                    "size": 39,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 41,
+                    "inBag": "false"
+                },
+                {
+                    "size": 42,
+                    "inBag": "false"
+                },
+                {
+                    "size": 42.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 43,
+                    "inBag": "false"
+                },
+                {
+                    "size": 44,
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/528823e3f84049719f5387a0c06b0840_9366/Dame_8_EXTPLY_Shoes_White_IF1514_01_standard.jpg",
+            "imgHover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d37618bcae7a4f80a412757d34ac1fee_9366/Dame_8_EXTPLY_Shoes_White_IF1514_04_standard.jpg",
+            "sliderPics": [
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/528823e3f84049719f5387a0c06b0840_9366/Dame_8_EXTPLY_Shoes_White_IF1514_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d37618bcae7a4f80a412757d34ac1fee_9366/Dame_8_EXTPLY_Shoes_White_IF1514_04_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0abbce1f94494da782e69a36edc64922_9366/Dame_8_EXTPLY_Shoes_White_IF1514_02_standard_hover.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f3eb4d9a509d455b96d099689ebc8927_9366/Dame_8_EXTPLY_Shoes_White_IF1514_03_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a75d82e2115c4a62bdee57ffe555cb0e_9366/Dame_8_EXTPLY_Shoes_White_IF1514_05_standard.jpg"
+            ]
+        },
+        {
+            "category": "Shoes",
+            "id": 5,
+            "brandName": "Nike",
+            "model": "KD17",
+            "price": "500 €",
+            "onSale": "false",
+            "sizes": [
+                {
+                    "size": 35,
+                    "inBag": "false"
+                },
+                {
+                    "size": 35.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 41,
+                    "inBag": "false"
+                },
+                {
+                    "size": 42,
+                    "inBag": "false"
+                },
+                {
+                    "size": 43,
+                    "inBag": "false"
+                },
+                {
+                    "size": 43.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 45,
+                    "inBag": "false"
+                },
+                {
+                    "size": 46,
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c9cc63a5-a59c-4365-9898-46a779368e1a/kd17-basketball-shoes-Vw01bx.png",
+            "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a596d82f-12f6-4cf4-a4ac-279abc325c92/kd17-basketball-shoes-Vw01bx.png",
+            "sliderPics": [
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c9cc63a5-a59c-4365-9898-46a779368e1a/kd17-basketball-shoes-Vw01bx.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a596d82f-12f6-4cf4-a4ac-279abc325c92/kd17-basketball-shoes-Vw01bx.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7313c65f-8c89-4bbc-b911-9291dce9be4b/kd17-basketball-shoes-Vw01bx.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e719f192-2995-47c0-9c85-3c4d0b9c6dfc/kd17-basketball-shoes-Vw01bx.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/363f01c5-d8c6-40ad-bb0e-5340453ae05d/kd17-basketball-shoes-Vw01bx.png"
+            ]
+        },
+        {
+            "category": "Shoes",
+            "id": 6,
+            "brandName": "Adidas",
+            "model": "HARDEN VOLUME 8",
+            "price": "160 €",
+            "onSale": "false",
+            "sizes": [
+                {
+                    "size": 35,
+                    "inBag": "false"
+                },
+                {
+                    "size": 35.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 38,
+                    "inBag": "false"
+                },
+                {
+                    "size": 39,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 41,
+                    "inBag": "false"
+                },
+                {
+                    "size": 42,
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d952e16c51a94199808a92466dc259e4_9366/Harden_Volume_8_Shoes_Pink_IE2698_01_standard.jpg",
+            "imgHover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5dc87a149a394bc5954f8de8e153338f_9366/Harden_Volume_8_Shoes_Pink_IE2698_04_standard.jpg",
+            "sliderPics": [
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d952e16c51a94199808a92466dc259e4_9366/Harden_Volume_8_Shoes_Pink_IE2698_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5dc87a149a394bc5954f8de8e153338f_9366/Harden_Volume_8_Shoes_Pink_IE2698_04_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/551b704847b14368ae41899499ddd744_9366/Harden_Volume_8_Shoes_Pink_IE2698_05_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5768b5aa89154c859abc0820ad41fa9e_9366/Harden_Volume_8_Shoes_Pink_IE2698_02_standard_hover.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/167ccf73facf42248acc9769fb5d5064_9366/Harden_Volume_8_Shoes_Pink_IE2698_03_standard.jpg"
+            ]
+        },
+        {
+            "category": "Shoes",
+            "id": 7,
+            "brandName": "Nike",
+            "model": " G.T. Hustle 2",
+            "price": "170 €",
+            "onSale": "true",
+            "sizes": [
+                {
+                    "size": 35,
+                    "inBag": "false"
+                },
+                {
+                    "size": 35.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 38,
+                    "inBag": "false"
+                },
+                {
+                    "size": 39,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 41,
+                    "inBag": "false"
+                },
+                {
+                    "size": 42,
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c8a7aaef-3ff0-4615-b56c-36683e12a19e/gt-hustle-2-victor-wembanyama-basketball-shoes-bfDrdt.png",
+            "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a6177d44-0dcd-4de0-ba6d-e6c7a8b85a67/gt-hustle-2-victor-wembanyama-basketball-shoes-bfDrdt.png",
+            "sliderPics": [
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c8a7aaef-3ff0-4615-b56c-36683e12a19e/gt-hustle-2-victor-wembanyama-basketball-shoes-bfDrdt.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a6177d44-0dcd-4de0-ba6d-e6c7a8b85a67/gt-hustle-2-victor-wembanyama-basketball-shoes-bfDrdt.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/92a52ff1-cce3-43c1-b1a9-1172c4fc476f/gt-hustle-2-victor-wembanyama-basketball-shoes-bfDrdt.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/abd9f4ac-1a71-424e-b5e7-87c93a9264cd/gt-hustle-2-victor-wembanyama-basketball-shoes-bfDrdt.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/69b0f27c-636e-4761-9e38-30bf1423e080/gt-hustle-2-victor-wembanyama-basketball-shoes-bfDrdt.png"
+            ]
+        },
+        {
+            "category": "Shoes",
+            "id": 8,
+            "brandName": "Adidas",
+            "model": "CRAZY 98",
+            "price": "150 €",
+            "onSale": "false",
+            "sizes": [
+                {
+                    "size": 35,
+                    "inBag": "false"
+                },
+                {
+                    "size": 35.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 38,
+                    "inBag": "false"
+                },
+                {
+                    "size": 39,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 41,
+                    "inBag": "false"
+                },
+                {
+                    "size": 42,
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dee4ae8459874fb9b2206ac5b4d6812c_9366/Crazy_98_Shoes_Black_IG8341_01_standard.jpg",
+            "imgHover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/78d950d8e2b14b12ab184ebddd55e6f5_9366/Crazy_98_Shoes_Black_IG8341_04_standard.jpg",
+            "sliderPics": [
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dee4ae8459874fb9b2206ac5b4d6812c_9366/Crazy_98_Shoes_Black_IG8341_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/78d950d8e2b14b12ab184ebddd55e6f5_9366/Crazy_98_Shoes_Black_IG8341_04_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/575507fa78114ec8a4a1adefec4c06ea_9366/Crazy_98_Shoes_Black_IG8341_02_standard_hover.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3685af8498124be3ba1ef558ce9050fb_9366/Crazy_98_Shoes_Black_IG8341_03_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/107b1f361de641418edf9b366384de68_9366/Crazy_98_Shoes_Black_IG8341_09_standard.jpg"
+            ]
+        },
+        {
+            "category": "Shoes",
+            "id": 9,
+            "brandName": "Nike",
+            "model": " G.T. Jump 2",
+            "price": "180 €",
+            "onSale": "false",
+            "sizes": [
+                {
+                    "size": 35,
+                    "inBag": "false"
+                },
+                {
+                    "size": 35.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 38,
+                    "inBag": "false"
+                },
+                {
+                    "size": 39,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40,
+                    "inBag": "false"
+                },
+                {
+                    "size": 40.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 41,
+                    "inBag": "false"
+                },
+                {
+                    "size": 42,
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/123b73fe-2040-4787-ae82-ab2490dfe0b5/gt-jump-2-mens-basketball-shoes-CZpmDQ.png",
+            "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7cafa521-b8dd-472a-bbc2-60f51d107078/gt-jump-2-mens-basketball-shoes-CZpmDQ.png",
+            "sliderPics": [
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/123b73fe-2040-4787-ae82-ab2490dfe0b5/gt-jump-2-mens-basketball-shoes-CZpmDQ.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7cafa521-b8dd-472a-bbc2-60f51d107078/gt-jump-2-mens-basketball-shoes-CZpmDQ.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/36634ca5-f23f-4cca-af47-41d871b279f5/gt-jump-2-mens-basketball-shoes-CZpmDQ.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c4874380-7a6d-443a-81cc-3e44ff68af5c/gt-jump-2-mens-basketball-shoes-CZpmDQ.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e973d163-43b9-4f43-914a-cfd1c9b941ad/gt-jump-2-mens-basketball-shoes-CZpmDQ.png"
+            ]
+        },
+        {
+            "category": "Shoes",
+            "id": 10,
+            "brandName": "Nike",
+            "model": "React Hyperdunk 2017 Low",
+            "price": "130 €",
+            "onSale": "true",
+            "sizes": [
+                {
+                    "size": 35,
+                    "inBag": "false"
+                },
+                {
+                    "size": 35.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 38,
+                    "inBag": "false"
+                },
+                {
+                    "size": 41,
+                    "inBag": "false"
+                },
+                {
+                    "size": 42,
+                    "inBag": "false"
+                },
+                {
+                    "size": 42.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 43,
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/755d0063-9ecc-4125-994e-18169727a245/react-hyperdunk-2017-low-mens-basketball-shoe-2by1jP.png",
+            "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0bfff5e9-723a-4354-a9f9-4819058cf518/react-hyperdunk-2017-low-mens-basketball-shoe-2by1jP.png",
+            "sliderPics": [
+               "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/755d0063-9ecc-4125-994e-18169727a245/react-hyperdunk-2017-low-mens-basketball-shoe-2by1jP.png",
+               "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0bfff5e9-723a-4354-a9f9-4819058cf518/react-hyperdunk-2017-low-mens-basketball-shoe-2by1jP.png",
+               "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cba75e5c-fb6c-4dca-9a42-86cbfaaee364/react-hyperdunk-2017-low-mens-basketball-shoe-2by1jP.png",
+               "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/affdafe9-3a3d-4ddd-9f01-52982bfc4ff2/react-hyperdunk-2017-low-mens-basketball-shoe-2by1jP.png",
+               "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8bd0e3cc-f3fb-40ec-b927-df330f859cd9/react-hyperdunk-2017-low-mens-basketball-shoe-2by1jP.png"
+            ]
+        },
+        {
+            "category": "Shoes",
+            "id": 11,
+            "brandName": "Adidas",
+            "model": "BYW SELECT LOW",
+            "price": "800 €",
+            "onSale": "false",
+            "sizes": [
+                {
+                    "size": 35,
+                    "inBag": "false"
+                },
+                {
+                    "size": 35.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36,
+                    "inBag": "false"
+                },
+                {
+                    "size": 36.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37,
+                    "inBag": "false"
+                },
+                {
+                    "size": 37.5,
+                    "inBag": "false"
+                },
+                {
+                    "size": 38,
+                    "inBag": "false"
+                },
+                {
+                    "size": 39,
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2972c3581ab42739c425fcfa47c5702_9366/BYW_Select_Low_Shoes_Yellow_ID6097_01_standard.jpg",
+            "imgHover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e903d15d8e5d4be49b04fb8fc41e14ad_9366/BYW_Select_Low_Shoes_Yellow_ID6097_04_standard.jpg",
+            "sliderPics": [
+               "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2972c3581ab42739c425fcfa47c5702_9366/BYW_Select_Low_Shoes_Yellow_ID6097_01_standard.jpg",
+               "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e903d15d8e5d4be49b04fb8fc41e14ad_9366/BYW_Select_Low_Shoes_Yellow_ID6097_04_standard.jpg",
+               "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e7845079317e490da9bbd9acf1e1e5e1_9366/BYW_Select_Low_Shoes_Yellow_ID6097_02_standard.jpg",
+               "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8ab7fda8190b4b12b5e8b7a82a8097e1_9366/BYW_Select_Low_Shoes_Yellow_ID6097_03_standard.jpg",
+               "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b7591fe23c914b5db56ac6e253de37a3_9366/BYW_Select_Low_Shoes_Yellow_ID6097_06_standard.jpg"
+            ]
+        },
+        {
+            "category": "Clothes",
+            "id": 12,
+            "brandName": "Adidas",
+            "model": "OWN THE RUN TANK TOP",
+            "price": "35 €",
+            "onSale": "true",
+            "sizes": [
+                {
+                    "size": "S",
+                    "inBag": "false"
+                },
+                {
+                    "size": "M",
+                    "inBag": "false"
+                },
+                {
+                    "size": "L",
+                    "inBag": "false"
+                },
+                {
+                    "size": "XL",
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ea9e8a01e53a47568cfeccc1bab1bcb3_9366/Own_The_Run_Tank_Top_Black_IN1499_21_model.jpg",
+            "imgHover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/de12233816ad4234a6dc5ce0ad55b3ff_9366/Own_The_Run_Tank_Top_Black_IN1499_23_hover_model.jpg",
+            "sliderPics": [
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ea9e8a01e53a47568cfeccc1bab1bcb3_9366/Own_The_Run_Tank_Top_Black_IN1499_21_model.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/de12233816ad4234a6dc5ce0ad55b3ff_9366/Own_The_Run_Tank_Top_Black_IN1499_23_hover_model.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2afc2ec2a82d4472be68dec0ca48c37e_9366/Own_The_Run_Tank_Top_Black_IN1499_25_model.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bec23359853e44aea130e783f1dbe9d8_9366/Own_The_Run_Tank_Top_Black_IN1499_01_laydown.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/59ce17304d334708ac6025bf8dfbe529_9366/Own_The_Run_Tank_Top_Black_IN1499_41_detail.jpg"
+            ]
+        },
+        {
+            "category": "Clothes",
+            "id": 13,
+            "brandName": "Adidas",
+            "model": "HOOP YORK CITY SHORT SLEEVE WARM-UP TOP",
+            "price": "70 €",
+            "onSale": "false",
+            "sizes": [
+                {
+                    "size": "XS",
+                    "inBag": "false"
+                },
+                {
+                    "size": "S",
+                    "inBag": "false"
+                },
+                {
+                    "size": "M",
+                    "inBag": "false"
+                },
+                {
+                    "size": "L",
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4a5c5354760745fd9a1e852bc5ccf5b1_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_21_model.jpg",
+            "imgHover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e76b67b7fdcb43feb19fd14e19c07447_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_23_hover_model.jpg",
+            "sliderPics": [
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4a5c5354760745fd9a1e852bc5ccf5b1_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_21_model.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e76b67b7fdcb43feb19fd14e19c07447_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_23_hover_model.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3aeffbd33ca14487ac7abb729be93add_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_01_laydown.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a7897b94dbd54735a68a60494d0bb042_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_25_model.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/643f377834b740f7a20f58d21a401b9d_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_42_detail.jpg"
+            ]
+        },
+        {
+            "category": "Clothes",
+            "id": 14,
+            "brandName": "Nike",
+            "model": "Sportswear Tech Fleece Windrunner",
+            "price": "50 €",
+            "onSale": "false",
+            "sizes": [
+                {
+                    "size": "XS",
+                    "inBag": "false"
+                },
+                {
+                    "size": "S",
+                    "inBag": "false"
+                },
+                {
+                    "size": "L",
+                    "inBag": "false"
+                },
+                {
+                    "size": "XL",
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/987285fa-3bb1-4109-bc75-081bce86cea9/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png",
+            "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0414212e-a1a8-4515-ae12-aa2e4ec7e371/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png",
+            "sliderPics": [
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/987285fa-3bb1-4109-bc75-081bce86cea9/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0414212e-a1a8-4515-ae12-aa2e4ec7e371/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d9f8fe8c-0674-4dbb-a218-692c19af5f80/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/338f4c80-25af-468b-8c8a-49c975eaa5b0/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ff2a5ac5-e88b-4f6b-bf33-17fbbdb0d266/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png"
+            ]
+        },
+        {
+            "category": "Clothes",
+            "id": 15,
+            "brandName": "Nike",
+            "model": "Sportswear Club",
+            "price": "50 €",
+            "onSale": "true",
+            "sizes": [
+                {
+                    "size": "XS",
+                    "inBag": "false"
+                },
+                {
+                    "size": "S",
+                    "inBag": "false"
+                },
+                {
+                    "size": "M",
+                    "inBag": "false"
+                },
+                {
+                    "size": "XL",
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2f4f75fe-ad08-4450-9c59-930278e68859/sportswear-club-mens-graphic-shorts-hQgvng.png",
+            "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/418b3b58-e1fe-4b88-becb-48a4302fe619/sportswear-club-mens-graphic-shorts-hQgvng.png",
+            "sliderPics": [
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2f4f75fe-ad08-4450-9c59-930278e68859/sportswear-club-mens-graphic-shorts-hQgvng.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/418b3b58-e1fe-4b88-becb-48a4302fe619/sportswear-club-mens-graphic-shorts-hQgvng.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/06590791-684b-4dc1-bf64-a28062355c33/sportswear-club-mens-graphic-shorts-hQgvng.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f3c54653-de8c-40ff-8c54-2cdd14cc1d9f/sportswear-club-mens-graphic-shorts-hQgvng.png",
+                "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/66735223-e3aa-4fd0-86c5-ac636937b356/sportswear-club-mens-graphic-shorts-hQgvng.png"
+            ]
+        },
+        {
+            "category": "Accesories",
+            "id": 16,
+            "brandName": "Nike",
+            "model": "Club",
+            "price": "30 €",
+            "onSale": "true",
+            "sizes": [
+                {
+                    "size": "One size",
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/65e66038-fbc5-4aba-b411-bdff3b9c47c4/club-unstructured-futura-wash-cap-77d39b.png",
+            "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c4590fc8-bd21-4c78-8015-0d03fcd5ff83/club-unstructured-futura-wash-cap-77d39b.png",
+            "sliderPics": [
+               "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/65e66038-fbc5-4aba-b411-bdff3b9c47c4/club-unstructured-futura-wash-cap-77d39b.png",
+               "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c4590fc8-bd21-4c78-8015-0d03fcd5ff83/club-unstructured-futura-wash-cap-77d39b.png",
+               "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7f331e53-49fa-4afe-9a78-80a4c920d1d9/club-unstructured-futura-wash-cap-77d39b.png",
+               "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/da613be2-6339-4cd3-8aa5-f8729c1781c9/club-unstructured-futura-wash-cap-77d39b.png",
+               "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9327576c-0d17-4dfb-9c48-2e5b77d3e5c1/club-unstructured-futura-wash-cap-77d39b.png"
+            ]
+        },
+        {
+            "category": "Accesories",
+            "id": 17,
+            "brandName": "Adidas",
+            "model": "ADICOLOR BACKPACK",
+            "price": "30 €",
+            "onSale": "true",
+            "sizes": [
+                {
+                    "size": "One size",
+                    "inBag": "false"
+                }
+            ],
+            "liked": "false",
+            "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dddcdca88d3043e6ae04521ef2ee8c50_9366/Adicolor_Backpack_Red_IX7455_01_standard.jpg",
+            "imgHover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/acaee16265834dadbbec58dec7293060_9366/Adicolor_Backpack_Red_IX7455_04_standard.jpg",
+            "sliderPics": [
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dddcdca88d3043e6ae04521ef2ee8c50_9366/Adicolor_Backpack_Red_IX7455_01_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/acaee16265834dadbbec58dec7293060_9366/Adicolor_Backpack_Red_IX7455_04_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3a3aa5c7b1504ccb902f0cc2064521c8_9366/Adicolor_Backpack_Red_IX7455_05_hover_standard.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4f4b177187a4bca9317d0a0b8ee8a6f_9366/Adicolor_Backpack_Red_IX7455_41_detail.jpg",
+                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5f555b8aaefb431b815e01c13dbe4feb_9366/Adicolor_Backpack_Red_IX7455_42_detail.jpg"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+export {DenseMenu as Sidebar} from './ui/Sidebar'
