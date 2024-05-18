@@ -1,16 +1,14 @@
 import { ImageList, ImageListItem, Paper } from "@mui/material"
-import { useParams } from "react-router-dom"
-import { productApi } from "../../../entities/productItem"
+import { productType } from "../../../entities/productItem"
+interface ProductSliderProps {
+    product: productType
+}
 
-export const ProductSlider = () => {
-
-    const { productId } = useParams<{ productId: string }>()
-
-    const { data: product } = productApi.useGetProductsByIdQuery(productId)
+export const ProductSlider = ({ product }: ProductSliderProps) => {
 
     return (
         product &&
-        <div style={{display: 'flex', gap: 30}}>
+        <div style={{ display: 'flex', gap: 30 }}>
             <ImageList sx={{ width: 130, height: 850 }} cols={1} rowHeight={150}>
                 {product.sliderPics.map((pic, idx) =>
                     <ImageListItem key={idx}>
@@ -24,7 +22,7 @@ export const ProductSlider = () => {
                 )}
             </ImageList>
             <Paper>
-                <img src={product.img} alt="pic" style={{width: 550}} />
+                <img src={product.img} alt="pic" style={{ width: 550 }} />
             </Paper>
         </div>
     )

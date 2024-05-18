@@ -1,14 +1,38 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux'
 import { productApi } from '../entities/productItem'
+import wishlistSlice from '../features/addToWishlist/model/WishlistSlice'
+import storage from 'redux-persist/lib/storage'
+import {
+    persistReducer,
+    FLUSH,
+    REHYDRATE,
+    PAUSE,
+    PERSIST,
+    PURGE,
+    REGISTER,
+} from 'redux-persist';
+
+const persistConfig = {
+    key: 'root',
+    storage,
+}
 
 const rootReducer = combineReducers({
     [productApi.reducerPath]: productApi.reducer,
+    wishlistSlice
 })
 
+const persistedReducer = persistReducer(persistConfig, rootReducer)
+
 const store = configureStore({
-    reducer: rootReducer,
-    middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(productApi.middleware)
+    reducer: persistedReducer,
+    middleware: getDefaultMiddleware =>
+        getDefaultMiddleware({
+            serializableCheck: {
+                ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER]
+            },
+        }).concat(productApi.middleware),
 })
 
 

@@ -10,6 +10,10 @@ import { Clothes } from '../pages/clothes/ui/Clothes.tsx'
 import { Accesories } from '../pages/accesories/ui/Accesories.tsx'
 import { Header } from '../widgets/header/index.ts'
 import { ProductPage } from '../pages/productPage/ui/ProductPage.tsx'
+import { PersistGate } from 'redux-persist/integration/react'
+import { persistStore } from 'redux-persist'
+
+let persistor = persistStore(store)
 
 const Layout = () => (
   <>
@@ -50,7 +54,10 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Provider store={store}>
-      <RouterProvider router={router} />
+      <PersistGate loading={null} persistor={persistor}>
+
+        <RouterProvider router={router} />
+      </PersistGate>
     </Provider>
   </React.StrictMode>,
 )

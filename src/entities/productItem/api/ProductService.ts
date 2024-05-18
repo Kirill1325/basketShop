@@ -12,5 +12,23 @@ export const productApi = createApi({
         getProductsById: build.query<productType, string | undefined>({
             query: (id) => ({ url: `/products/${id}` })
         }),
+
+        addToWishlist: build.mutation<productType, productType>({
+            query(body) {
+                return {
+                    url: `/wishlist`,
+                    method: 'POST',
+                    body,
+                }
+            }
+        }),
+        deleteFromWishlist: build.mutation<{ success: boolean; id: number }, number>({
+            query(id) {
+                return {
+                    url: `wishlist/${id}`,
+                    method: 'DELETE',
+                }
+            },
+        }),
     })
 })

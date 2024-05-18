@@ -17,6 +17,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import { Link } from 'react-router-dom';
+import { useAppSelector } from '../../../app/store';
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
@@ -59,6 +60,9 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 export function PrimarySearchAppBar() {
+
+    const {count} = useAppSelector(state => state.wishlistSlice)
+
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] =
         React.useState<null | HTMLElement>(null);
@@ -136,7 +140,7 @@ export function PrimarySearchAppBar() {
                     aria-label="show 17 new notifications"
                     color="inherit"
                 >
-                    <Badge badgeContent={17} color="error">
+                    <Badge badgeContent={count} color="error">
                         <NotificationsIcon />
                     </Badge>
                 </IconButton>
@@ -195,8 +199,7 @@ export function PrimarySearchAppBar() {
                             <Link style={{textDecoration: 'none', cursor: 'pointer', color: 'white'}} to={'/accesories'}><Typography variant="h6" >Accesories</Typography></Link>                                                                                    
                         </Box>
                         <IconButton size="large" aria-label="show 4 new mails" color="inherit">
-                            {/* TODO: add number of liked products */}
-                            <Badge badgeContent={17} color="error">
+                            <Badge badgeContent={count} color="error">
                                 <FavoriteBorderIcon />
                             </Badge>
                         </IconButton>

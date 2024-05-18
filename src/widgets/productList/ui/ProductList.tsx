@@ -9,6 +9,11 @@ export const ProductList = ({ category }: ProductListProps) => {
 
   const { data: products } = productApi.useGetAllProductsQuery()
 
+  // const { data: productsInWishlist } = productApi.useGetProducFromWishlistsByIdQuery()
+
+  // const dispatch = useAppDispatch()
+  // const {productInWishlistState} = useAppSelector(state => state.wishlistSlice)
+
   return (
     <Container>
       <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>

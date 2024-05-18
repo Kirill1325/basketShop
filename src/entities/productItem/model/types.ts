@@ -1,8 +1,3 @@
-export type sizeType = {
-    size: string,
-    inBag: boolean
-}
-
 export type productType = {
     category: string,
     id: number,
@@ -10,8 +5,7 @@ export type productType = {
     model: string,
     price: string,
     onSale: boolean,
-    sizes: sizeType[],
-    liked: boolean,
+    sizes: Array<number | string>,
     img: any,
     imgHover: any,
     sliderPics: any[]

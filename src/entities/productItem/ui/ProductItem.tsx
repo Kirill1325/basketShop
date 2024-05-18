@@ -4,9 +4,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { productType } from '../model/types';
 import { useState } from 'react';
-import { Button, CardActions, Grid, IconButton } from '@mui/material';
+import { Button, CardActions, Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import { AddToWishlistIcon } from '../../../features/addToWishlist';
 
 interface ProductItemProps {
   product: productType
@@ -60,18 +60,16 @@ export const ProductItem = ({ product }: ProductItemProps) => {
         </CardContent>
         {isShown &&
           <CardActions sx={{ marginTop: 'auto' }}>
-            <IconButton sx={{ position: 'absolute', top: 0, right: 0 }} aria-label="add to favorites">
-              <FavoriteBorderIcon />
-            </IconButton>
+            <AddToWishlistIcon product={product} />
             <Grid sx={{ position: 'absolute', bottom: 0, left: -20 }} container >
               {product.sizes.map(size =>
-                <Grid item md={2} key={size.size}>
+                <Grid item md={2} key={size}>
                   <Button
                     sx={{
                       padding: 0,
                       margin: 0
                     }}
-                  >{size.size}</Button>
+                  >{size}</Button>
                 </Grid>
               )}
             </Grid>

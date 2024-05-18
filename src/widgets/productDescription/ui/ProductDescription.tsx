@@ -1,13 +1,14 @@
-import { useParams } from "react-router-dom"
-import { productApi } from "../../../entities/productItem"
+import { productType } from "../../../entities/productItem"
 import { Button, ButtonGroup, Grid, List, ListItem, ListItemText, Paper, Typography } from "@mui/material"
 import BasicTabs from "../../../shared/CustomTabPanel"
+import { AddToWishlistButton } from "../../../features/addToWishlist"
 
-export const ProductDescription = () => {
+interface ProductDescriptionProps {
+    product: productType
+}
 
-    const { productId } = useParams<{ productId?: string }>()
+export const ProductDescription = ({ product }: ProductDescriptionProps) => {
 
-    const { data: product } = productApi.useGetProductsByIdQuery(productId)
 
     return (
         product &&
@@ -46,7 +47,7 @@ export const ProductDescription = () => {
 
                     <Grid container >
                         {product.sizes.map(size =>
-                            <Grid item key={size.size}>
+                            <Grid item key={size}>
                                 <Button
                                     variant='text'
                                     sx={{
@@ -56,7 +57,7 @@ export const ProductDescription = () => {
                                         border: '1px solid rgb(147, 147, 147)',
                                         borderRadius: 0
                                     }}
-                                >EU {size.size}</Button>
+                                >EU {size}</Button>
                             </Grid>
                         )}
                     </Grid>
@@ -64,7 +65,7 @@ export const ProductDescription = () => {
                 <ListItem>
                     <ButtonGroup orientation="vertical">
                         <Button sx={{ width: 300 }} variant="contained">Add To Cart</Button>
-                        <Button sx={{ width: 300 }} variant="text">Add To Wishlist</Button>
+                        <AddToWishlistButton product={product} />
                     </ButtonGroup>
                 </ListItem>
                 <ListItem>
