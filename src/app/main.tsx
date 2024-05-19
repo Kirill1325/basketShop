@@ -12,6 +12,7 @@ import { Header } from '../widgets/header/index.ts'
 import { ProductPage } from '../pages/productPage/ui/ProductPage.tsx'
 import { PersistGate } from 'redux-persist/integration/react'
 import { persistStore } from 'redux-persist'
+import { CartModal } from '../widgets/cartModal/index.ts'
 
 let persistor = persistStore(store)
 
@@ -19,6 +20,7 @@ const Layout = () => (
   <>
     <Header />
     <Outlet />
+    <CartModal/>
   </>
 );
 
@@ -55,7 +57,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-
         <RouterProvider router={router} />
       </PersistGate>
     </Provider>

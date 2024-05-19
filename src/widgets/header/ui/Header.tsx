@@ -14,10 +14,13 @@ import SearchIcon from '@mui/icons-material/Search';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import { Link } from 'react-router-dom';
-import { useAppSelector } from '../../../app/store';
+import { useAppDispatch, useAppSelector } from '../../../app/store';
+import { toggleModal } from '../../cartModal/model/CartModalSlice';
+import { productApi } from '../../../entities/productItem';
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
@@ -59,9 +62,23 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
 }));
 
+const linkStyle = {
+    textDecoration: 'none',
+    cursor: 'pointer',
+    color: 'white'
+}
+
 export function PrimarySearchAppBar() {
 
-    const {count} = useAppSelector(state => state.wishlistSlice)
+    const { count } = useAppSelector(state => state.wishlistSlice)
+    const dispatch = useAppDispatch()
+
+    const { refetch } = productApi.useGetAllProductsFromCartQuery()
+
+    const handleCartClick = () => {
+        dispatch(toggleModal())
+        refetch()
+    }
 
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] =
@@ -194,16 +211,19 @@ export function PrimarySearchAppBar() {
                     <Box sx={{ flexGrow: 1 }} />
                     <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, marginRight: 4 }}>
-                            <Link style={{textDecoration: 'none', cursor: 'pointer', color: 'white'}} to={'/shoes'}><Typography variant="h6" >Shoes</Typography></Link>
-                            <Link style={{textDecoration: 'none', cursor: 'pointer', color: 'white'}} to={'/clothes'}><Typography variant="h6" >Clothes</Typography></Link>
-                            <Link style={{textDecoration: 'none', cursor: 'pointer', color: 'white'}} to={'/accesories'}><Typography variant="h6" >Accesories</Typography></Link>                                                                                    
+                            <Link style={linkStyle} to={'/shoes'}><Typography variant="h6" >Shoes</Typography></Link>
+                            <Link style={linkStyle} to={'/clothes'}><Typography variant="h6" >Clothes</Typography></Link>
+                            <Link style={linkStyle} to={'/accesories'}><Typography variant="h6" >Accesories</Typography></Link>
                         </Box>
-                        <IconButton size="large" aria-label="show 4 new mails" color="inherit">
+                        <IconButton size="large" aria-label="wishlist" color="inherit">
                             <Badge badgeContent={count} color="error">
                                 <FavoriteBorderIcon />
                             </Badge>
                         </IconButton>
-                       
+                        <IconButton onClick={handleCartClick} size="large" aria-label="cart" color="inherit">
+                            <ShoppingBagOutlinedIcon />
+                        </IconButton>
+
                         <IconButton
                             size="large"
                             edge="end"

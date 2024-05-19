@@ -26,6 +26,7 @@ export const AddToWishlistButton = ({ product }: AddToWishlistButtonProps) => {
             addToWishlist(product)
         }
     }
+    // TODO: change style when added in wishlist
 
     return (
         <Button sx={{ width: 300 }} variant="text" onClick={(e) => handleAddToWishlist(e)}>

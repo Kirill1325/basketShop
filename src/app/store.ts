@@ -12,15 +12,20 @@ import {
     PURGE,
     REGISTER,
 } from 'redux-persist';
+import cartModalSlice from '../widgets/cartModal/model/CartModalSlice'
+import cartSlice from '../features/addToCart/model/cartSlice'
 
 const persistConfig = {
     key: 'root',
     storage,
+    blacklist: [productApi.reducerPath]
 }
 
 const rootReducer = combineReducers({
     [productApi.reducerPath]: productApi.reducer,
-    wishlistSlice
+    wishlistSlice,
+    cartModalSlice,
+    cartSlice
 })
 
 const persistedReducer = persistReducer(persistConfig, rootReducer)
