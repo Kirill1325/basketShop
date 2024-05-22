@@ -4,6 +4,7 @@ import MenuList from '@mui/material/MenuList';
 import { Accordion, AccordionDetails, AccordionSummary, Button, Checkbox, FormControlLabel, Grid, Typography } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { FilterByPrice } from '../../../features/filterByPrice';
+import { FilterByBrandname } from '../../../features/filterByBrandname';
 
 interface DenseMenuProps {
     sizesGrid?: Array<string | number>
@@ -14,19 +15,7 @@ export function DenseMenu({ sizesGrid }: DenseMenuProps) {
         <Paper elevation={0} sx={{ width: 320 }}>
             <MenuList dense>
 
-                <Accordion defaultExpanded>
-                    <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        id="panel1-header"
-                    >
-                        <Typography>Brand</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails sx={{ display: 'flex', flexDirection: 'column' }}>
-                        <FormControlLabel control={<Checkbox />} label="Nike" />
-                        <FormControlLabel control={<Checkbox />} label="Adidas" />
-                        <FormControlLabel control={<Checkbox />} label="Under Armour" />
-                    </AccordionDetails>
-                </Accordion>
+                <FilterByBrandname />
 
                 <Divider />
 

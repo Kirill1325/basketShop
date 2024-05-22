@@ -1,17 +1,17 @@
 import { Accordion, AccordionSummary, Typography, AccordionDetails, Box, TextField } from "@mui/material"
-import { RangeSlider, setSliderValue } from "../../../entities/slider"
+import { RangeSlider, setSliderPriceValue } from "../../../entities/slider"
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useAppDispatch, useAppSelector } from "../../../app/store";
 
 export const FilterByPrice = () => {
 
     const dispatch = useAppDispatch()
-    const { value } = useAppSelector(state => state.sliderSlice)
+    const { priceValue } = useAppSelector(state => state.sliderSlice)
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        parseInt(e.target.value) === value[0]
-            ? dispatch(setSliderValue([parseInt(e.target.value), value[1]]))
-            : dispatch(setSliderValue([value[0], parseInt(e.target.value)]))
+        parseInt(e.target.value) === priceValue[0]
+            ? dispatch(setSliderPriceValue([parseInt(e.target.value), priceValue[1]]))
+            : dispatch(setSliderPriceValue([priceValue[0], parseInt(e.target.value)]))
     }
 
     return (
@@ -29,7 +29,7 @@ export const FilterByPrice = () => {
                         size="small"
                         label="From"
                         variant="outlined"
-                        value={value[0]}
+                        value={priceValue[0]}
                         onChange={(e) => handleChange(e)}
                     />
                     <TextField
@@ -37,7 +37,7 @@ export const FilterByPrice = () => {
                         size="small"
                         label="To"
                         variant="outlined"
-                        value={value[1]}
+                        value={priceValue[1]}
                         onChange={(e) => handleChange(e)}
                     />
                 </Box>
