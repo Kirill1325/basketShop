@@ -15,7 +15,7 @@ export const cartSlice = createSlice({
     initialState,
     reducers: {
         setChosenSize(state, action: PayloadAction<number | null>) {
-            console.log(action.payload)
+            // console.log(action.payload)
             state.chosenSize = action.payload
         },
         toggleCart(state, action: PayloadAction<number[]>){

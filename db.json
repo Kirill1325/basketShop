@@ -5,8 +5,7 @@
       "id": "1",
       "brandName": "Nike",
       "model": "Ja 1",
-      "price": "120 €",
-      "onSale": "false",
+      "price": "€120",
       "sizes": [
         38,
         38.5,
@@ -33,8 +32,7 @@
       "id": "2",
       "brandName": "Nike",
       "model": "LeBron XXI",
-      "price": "200 €",
-      "onSale": "true",
+      "price": "€200",
       "sizes": [
         38,
         38.5,
@@ -61,8 +59,7 @@
       "id": "3",
       "brandName": "Under Armour",
       "model": "Curry 1",
-      "price": "150 €",
-      "onSale": "false",
+      "price": "€150",
       "sizes": [
         38,
         38.5,
@@ -89,8 +86,7 @@
       "id": "4",
       "brandName": "Adidas",
       "model": "DAME 8",
-      "price": "900 €",
-      "onSale": "true",
+      "price": "€900",
       "sizes": [
         38,
         38.5,
@@ -117,8 +113,7 @@
       "id": "5",
       "brandName": "Nike",
       "model": "KD17",
-      "price": "500 €",
-      "onSale": "false",
+      "price": "€500",
       "sizes": [
         38,
         38.5,
@@ -145,8 +140,7 @@
       "id": "6",
       "brandName": "Adidas",
       "model": "HARDEN VOLUME 8",
-      "price": "160 €",
-      "onSale": "false",
+      "price": "€160",
       "sizes": [
         38,
         38.5,
@@ -173,8 +167,7 @@
       "id": "7",
       "brandName": "Nike",
       "model": " G.T. Hustle 2",
-      "price": "170 €",
-      "onSale": "true",
+      "price": "€170",
       "sizes": [
         38,
         38.5,
@@ -201,8 +194,7 @@
       "id": "8",
       "brandName": "Adidas",
       "model": "CRAZY 98",
-      "price": "150 €",
-      "onSale": "false",
+      "price": "€150",
       "sizes": [
         38,
         38.5,
@@ -229,8 +221,7 @@
       "id": "9",
       "brandName": "Nike",
       "model": " G.T. Jump 2",
-      "price": "180 €",
-      "onSale": "false",
+      "price": "€180",
       "sizes": [
         38,
         38.5,
@@ -257,8 +248,7 @@
       "id": "10",
       "brandName": "Nike",
       "model": "React Hyperdunk 2017 Low",
-      "price": "130 €",
-      "onSale": "true",
+      "price": "€130",
       "sizes": [
         38,
         38.5,
@@ -285,8 +275,7 @@
       "id": "11",
       "brandName": "Adidas",
       "model": "BYW SELECT LOW",
-      "price": "800 €",
-      "onSale": "false",
+      "price": "€800",
       "sizes": [
         38,
         38.5,
@@ -313,8 +302,7 @@
       "id": "12",
       "brandName": "Adidas",
       "model": "OWN THE RUN TANK TOP",
-      "price": "35 €",
-      "onSale": "true",
+      "price": "€35",
       "sizes": [
         "XS",
         "S",
@@ -337,8 +325,7 @@
       "id": "13",
       "brandName": "Adidas",
       "model": "HOOP YORK CITY SHORT SLEEVE WARM-UP TOP",
-      "price": "70 €",
-      "onSale": "false",
+      "price": "€70",
       "sizes": [
         "XS",
         "S",
@@ -360,8 +347,7 @@
       "id": "14",
       "brandName": "Nike",
       "model": "Sportswear Tech Fleece Windrunner",
-      "price": "50 €",
-      "onSale": "false",
+      "price": "€50",
       "sizes": [
         "XS",
         "S",
@@ -384,8 +370,7 @@
       "id": "15",
       "brandName": "Nike",
       "model": "Sportswear Club",
-      "price": "50 €",
-      "onSale": "true",
+      "price": "€50",
       "sizes": [
         "XS",
         "S",
@@ -407,8 +392,7 @@
       "id": "16",
       "brandName": "Nike",
       "model": "Club",
-      "price": "30 €",
-      "onSale": "true",
+      "price": "€30",
       "sizes": [
         "ONE SIZE"
       ],
@@ -427,8 +411,7 @@
       "id": "17",
       "brandName": "Adidas",
       "model": "ADICOLOR BACKPACK",
-      "price": "30 €",
-      "onSale": "true",
+      "price": "€30",
       "sizes": [
         "ONE SIZE"
       ],
@@ -444,5 +427,26 @@
     }
   ],
   "wishlist": [],
-  "cart": []
+  "cart": [
+    {
+      "category": "Shoes",
+      "brandName": "Nike",
+      "model": "LeBron XXI",
+      "price": "€200",
+      "sizes": [
+        38,
+        38.5
+      ],
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ddf973d-e905-4362-8a2b-040e862bd273/lebron-xxi-basketball-shoes-DjB9tK.png",
+      "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/185116f3-9e57-4405-a9c4-851fbdeb36fc/lebron-xxi-basketball-shoes-DjB9tK.png",
+      "sliderPics": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ddf973d-e905-4362-8a2b-040e862bd273/lebron-xxi-basketball-shoes-DjB9tK.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/185116f3-9e57-4405-a9c4-851fbdeb36fc/lebron-xxi-basketball-shoes-DjB9tK.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f14064b6-10a3-468e-b24e-788106e6a9ed/lebron-xxi-basketball-shoes-DjB9tK.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/56f1807f-4974-4cc6-8cd7-8fe89607480b/lebron-xxi-basketball-shoes-DjB9tK.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/68985a5f-583e-4223-a679-0e50b6aa895c/lebron-xxi-basketball-shoes-DjB9tK.png"
+      ],
+      "id": "2"
+    }
+  ]
 }
