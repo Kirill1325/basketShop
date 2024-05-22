@@ -1,30 +1,26 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 
 interface sliderSliceState {
-    value: number[],
-    error: string
+    priceValue: number[],
 }
 
 const initialState: sliderSliceState = {
-    value: [0, 1000],
-    error: ''
+    priceValue: [0, 1000],
 }
 
 export const sliderSlice = createSlice({
     name: 'sliderSlice',
     initialState,
     reducers: {
-        setSliderValue(state, action: PayloadAction<number[]>) {
-            state.value = action.payload
+        setSliderPriceValue(state, action: PayloadAction<number[]>) {
+            state.priceValue = action.payload
         },
-        setError(state, action: PayloadAction<string>) {
-            state.error = action.payload
-        }
+        
     }
 })
 
 const { actions, reducer } = sliderSlice
 
-export const { setSliderValue, setError } = actions
+export const { setSliderPriceValue } = actions
 
 export default reducer

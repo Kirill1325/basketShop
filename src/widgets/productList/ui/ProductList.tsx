@@ -1,6 +1,7 @@
 import { Container, Grid } from '@mui/material'
 import { productApi, ProductItem } from '../../../entities/productItem'
 import { useAppSelector } from '../../../app/store'
+import { useEffect } from 'react'
 
 interface ProductListProps {
   category: string
@@ -10,9 +11,8 @@ export const ProductList = ({ category }: ProductListProps) => {
 
   const { data: products } = productApi.useGetAllProductsQuery()
 
-  const { value } = useAppSelector(state => state.sliderSlice)
-
-
+  const { priceValue } = useAppSelector(state => state.sliderSlice)
+  const { brandnameSortValue } = useAppSelector(state => state.filterByBrandNameSlice)
 
   return (
     <Container>
@@ -21,7 +21,8 @@ export const ProductList = ({ category }: ProductListProps) => {
         {products &&
           products
             .filter(product => product.category === category)
-            .filter(product => parseInt(product.price.slice(1)) <= value[1] && parseInt(product.price.slice(1)) >= value[0])
+            .filter(product => parseInt(product.price.slice(1)) <= priceValue[1] && parseInt(product.price.slice(1)) >= priceValue[0])
+            .filter(product => brandnameSortValue[product.brandName])
             .map(product =>
               <Grid item xs={2} sm={4} md={4} key={product.id}>
                 <ProductItem product={product} />
