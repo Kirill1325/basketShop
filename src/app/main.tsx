@@ -57,7 +57,7 @@ const router = createBrowserRouter([
       },
       {
         // TODO: dynamically change shoes/clothes/accesories
-        path: '/products/:productId',
+        path: '/:productCategory/:productId',
         element: <ProductPage />
       },
     ]

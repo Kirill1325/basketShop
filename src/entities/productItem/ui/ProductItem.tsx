@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import { AddToWishlistIcon } from '../../../features/addToWishlist';
 
 interface ProductItemProps {
-  product: productType
+  product: productType,
 }
 
 export const ProductItem = ({ product }: ProductItemProps) => {
@@ -19,7 +19,7 @@ export const ProductItem = ({ product }: ProductItemProps) => {
   const [isShown, setIsShown] = useState(false)
 
   return (
-    <Link to={`/products/${product.id}`} style={{ textDecoration: 'none' }}>
+    <Link to={`/${product.category}/${product.id}`} style={{ textDecoration: 'none' }}>
       <Card sx={{
         position: 'relative',
         display: 'flex',

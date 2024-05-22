@@ -7,7 +7,6 @@ import { productApi } from '../../../entities/productItem';
 import { Button, Divider, List, ListItem, Stack, TextField } from '@mui/material';
 import { ProductInCart } from '../../../entities/productInCart';
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
 
 const style = {
     position: 'absolute' as 'absolute',
@@ -81,7 +80,7 @@ export const CartModal = () => {
                             <Box key={product.id + '' + size}>
                                 <Divider variant="middle" />
                                 <Link
-                                    to={`/products/${product.id}`}
+                                    to={`/${product.category}/${product.id}`}
                                     style={{ textDecoration: 'none', color: 'black' }}
                                     onClick={() => dispatch(toggleModal())}>
                                     <ProductInCart product={product} size={size} refetch={refetch} />
