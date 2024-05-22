@@ -22,7 +22,8 @@ export const AddToCartButton = ({ product }: AddToCartButtonProps) => {
 
     const isInCart = useIfSizeInCart(product.id, chosenSize)
 
-    const handleAddToCArtClick = async () => {
+    const handleAddToCArtClick = () => {
+        // TODO: when size added, open cart model
         if (isInCart && productInCart && productInCart.sizes.length === 1) {
             // If the product is in the cart and it has only one size, delete the entire product from the cart
             deleteFromCart(productInCart.id)
@@ -43,7 +44,6 @@ export const AddToCartButton = ({ product }: AddToCartButtonProps) => {
                     ...productInCart,
                     sizes: [...productInCart.sizes, chosenSize]
                 } as productType
-                console.log(productToUpdateInCart)
                 updateCart(productToUpdateInCart)
             }
             if (!isError && chosenSize !== null && isInCart && productInCart) {

@@ -13,14 +13,25 @@ import { ProductPage } from '../pages/productPage/ui/ProductPage.tsx'
 import { PersistGate } from 'redux-persist/integration/react'
 import { persistStore } from 'redux-persist'
 import { CartModal } from '../widgets/cartModal/index.ts'
+import { ThemeProvider } from '@emotion/react'
+import { createTheme } from '@mui/material'
 
 let persistor = persistStore(store)
+
+const theme = createTheme({
+  // typography: {
+  //   fontFamily: 'Prompt, sans-serif',
+  //   h6: {
+  //     fontWeight: 400,
+  //   },
+  // },
+});
 
 const Layout = () => (
   <>
     <Header />
     <Outlet />
-    <CartModal/>
+    <CartModal />
   </>
 );
 
@@ -55,10 +66,12 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
-        <RouterProvider router={router} />
-      </PersistGate>
-    </Provider>
+    <ThemeProvider theme={theme}>
+      <Provider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
+          <RouterProvider router={router} />
+        </PersistGate>
+      </Provider>
+    </ThemeProvider>
   </React.StrictMode>,
 )

@@ -41,19 +41,9 @@ export const ProductItem = ({ product }: ProductItemProps) => {
           title={`${product.brandName} ${product.model}`}
         />
         <CardContent sx={{ paddingBottom: 0 }}>
-          {product.onSale
-            ? <div style={{ display: 'flex', gap: '.3em' }}>
-              <Typography variant="body2" color="text.secondary">
-                {Math.floor(parseInt(product.price) * 0.7) + ' €'}
-              </Typography>
-              <Typography sx={{ textDecoration: 'line-through', color: 'red' }} variant="body2" color="text.secondary">
-                {product.price}
-              </Typography>
-            </div>
-            : <Typography variant="body2" color="text.secondary">
-              {product.price}
-            </Typography>
-          }
+          <Typography variant="body2" color="text.secondary">
+            {product.price}
+          </Typography>
           <Typography sx={{ fontSize: '.9em' }} component="div">
             {product.brandName.concat(' ').concat(product.model)}
           </Typography>

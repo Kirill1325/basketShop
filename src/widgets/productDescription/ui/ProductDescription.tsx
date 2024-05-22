@@ -31,24 +31,14 @@ export const ProductDescription = ({ product }: ProductDescriptionProps) => {
                     </Typography>
                 </ListItem>
                 <ListItem>
-                    <ListItemText secondary='Color' />
+                    <ListItemText secondary={product.category} />
                 </ListItem>
                 <ListItem>
                     <Typography variant="h5">
-                        {/* TODO: make it a component */}
-                        {product.onSale
-                            ? <div style={{ display: 'flex', gap: '.3em' }}>
-                                <Typography variant="h5" color="text.secondary">
-                                    {Math.floor(parseInt(product.price) * 0.7) + ' €'}
-                                </Typography>
-                                <Typography sx={{ textDecoration: 'line-through', color: 'red' }} variant="h5" color="text.secondary">
-                                    {product.price}
-                                </Typography>
-                            </div>
-                            : <Typography variant="h5" color="text.secondary">
-                                {product.price}
-                            </Typography>
-                        }
+                        {/* TODO: fix price bug */}
+                        <Typography variant="body2" color="text.secondary">
+                            {product.price}
+                        </Typography>
                     </Typography>
                 </ListItem>
                 <ListItem>
@@ -67,9 +57,13 @@ export const ProductDescription = ({ product }: ProductDescriptionProps) => {
                                         width: 80,
                                         height: 50,
                                         padding: 0,
-                                        border: '1px solid rgb(147, 147, 147)',
+                                        border: chosenSize === size ? '2px solid black' : '1px solid rgb(103, 103, 103)',
                                         borderRadius: 0,
-                                        color: chosenSize === size ? 'red' : 'black'
+                                        color: chosenSize === size ? 'black' : 'rgb(103, 103, 103)',
+                                        "&:hover": {
+                                            color: 'black',
+                                            backgroundColor: 'white'
+                                        }
                                     }}
 
                                 >EU {size}</Button>
