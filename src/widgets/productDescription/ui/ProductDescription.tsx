@@ -16,7 +16,7 @@ export const ProductDescription = ({ product }: ProductDescriptionProps) => {
 
     const handleChooseSizeClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         // console.log(e.currentTarget)
-        const choseSize = parseFloat(e.currentTarget.value)
+        const choseSize = e.currentTarget.value
         dispatch(setChosenSize(choseSize))
     }
 
@@ -65,7 +65,12 @@ export const ProductDescription = ({ product }: ProductDescriptionProps) => {
                                         }
                                     }}
 
-                                >EU {size}</Button>
+                                >
+                                    {size === 'ONE SIZE'
+                                        ? size
+                                        : 'EU ' + size
+                                    }
+                                </Button>
                             </Grid>
                         )}
                     </Grid>

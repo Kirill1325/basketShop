@@ -15,6 +15,7 @@ export const wishlistSlice = createSlice({
     initialState,
     reducers: {
         toggleWishlist(state, action: PayloadAction<number>) {
+
             if (state.productInWishlistState[action.payload]) {
                 state.productInWishlistState[action.payload] = false
                 state.count -= 1
@@ -22,6 +23,8 @@ export const wishlistSlice = createSlice({
                 state.productInWishlistState[action.payload] = true
                 state.count += 1
             }
+            // console.log(current(state));
+
         }
     }
 })

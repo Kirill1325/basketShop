@@ -1,6 +1,6 @@
 import { productApi } from "../../../entities/productItem"
 
-export const useIfSizeInCart = (productId: number, size: number | null) => {
+export const useIfSizeInCart = (productId: number, size: string) => {
 
     const { data: product } = productApi.useGetProductFromCartByIdQuery(productId)
 
