@@ -3,7 +3,7 @@ import { IconButton } from '@mui/material';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { useAppDispatch, useAppSelector } from '../../../app/store';
-import { toggleWishlist } from '../model/WishlistSlice';
+import { toggleWishlist } from '..';
 
 interface AddToWishlistIconProps {
     product: productType,

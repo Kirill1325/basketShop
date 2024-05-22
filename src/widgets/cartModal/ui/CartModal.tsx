@@ -39,11 +39,11 @@ export const CartModal = () => {
     }, initialSubtotal)
 
 
-    useEffect(() => {
-        productsInCart?.map(product =>
-            console.log(parseInt(product.price))
-        )
-    }, [subtotal])
+    // useEffect(() => {
+    //     productsInCart?.map(product =>
+    //         console.log(parseInt(product.price))
+    //     )
+    // }, [subtotal])
 
     const freeShippingAmout = 350
 

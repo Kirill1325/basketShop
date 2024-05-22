@@ -2,9 +2,8 @@ import { productType } from "../../../entities/productItem"
 import { Button, ButtonGroup, Grid, List, ListItem, ListItemText, Paper, Typography } from "@mui/material"
 import BasicTabs from "../../../shared/CustomTabPanel"
 import { AddToWishlistButton } from "../../../features/addToWishlist"
-import { AddToCartButton } from "../../../features/addToCart"
+import { AddToCartButton, setChosenSize } from "../../../features/addToCart"
 import { useAppDispatch, useAppSelector } from "../../../app/store"
-import { setChosenSize } from "../../../features/addToCart/model/cartSlice"
 
 interface ProductDescriptionProps {
     product: productType

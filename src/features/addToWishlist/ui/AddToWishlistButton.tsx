@@ -1,6 +1,6 @@
+import { toggleWishlist } from ".."
 import { useAppDispatch, useAppSelector } from "../../../app/store"
 import { productApi, productType } from "../../../entities/productItem"
-import { toggleWishlist } from "../model/WishlistSlice"
 import { Button } from "@mui/material"
 
 interface AddToWishlistButtonProps {

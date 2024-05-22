@@ -1,9 +1,9 @@
 import Paper from '@mui/material/Paper';
 import Divider from '@mui/material/Divider';
 import MenuList from '@mui/material/MenuList';
-import { RangeSlider } from '../../../entities/slider';
-import { Accordion, AccordionDetails, AccordionSummary, Box, Button, Checkbox, FormControlLabel, Grid, TextField, Typography } from '@mui/material';
+import { Accordion, AccordionDetails, AccordionSummary, Button, Checkbox, FormControlLabel, Grid, Typography } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { FilterByPrice } from '../../../features/filterByPrice';
 
 interface DenseMenuProps {
     sizesGrid?: Array<string | number>
@@ -30,23 +30,7 @@ export function DenseMenu({ sizesGrid }: DenseMenuProps) {
 
                 <Divider />
 
-                <Accordion defaultExpanded>
-                    <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        id="panel2-header"
-                    >
-                        <Typography>Price</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                        <Box sx={{ display: 'flex', gap: 10 }}>
-                            <TextField id="outlined-basic" size="small" label="From" variant="outlined" />
-                            <TextField id="outlined-basic" size="small" label="To" variant="outlined" />
-                        </Box>
-                        <RangeSlider />
-                    </AccordionDetails>
-                </Accordion>
-
-
+                <FilterByPrice />
 
                 {sizesGrid &&
                     <Accordion defaultExpanded>
