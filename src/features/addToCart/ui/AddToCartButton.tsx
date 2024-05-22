@@ -2,7 +2,7 @@ import { Button } from "@mui/material"
 import { productApi, productType } from "../../../entities/productItem"
 import { useAppDispatch, useAppSelector } from "../../../app/store"
 import { useIfSizeInCart } from "../lib/checkIfInCart"
-import { setChosenSize } from "../model/cartSlice"
+import { setChosenSize } from ".."
 
 interface AddToCartButtonProps {
     product: productType

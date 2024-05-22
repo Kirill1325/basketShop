@@ -14,6 +14,7 @@ import {
 } from 'redux-persist';
 import cartModalSlice from '../widgets/cartModal/model/CartModalSlice'
 import cartSlice from '../features/addToCart/model/cartSlice'
+import sliderSlice from '../entities/slider/model/sliderSlice'
 
 const persistConfig = {
     key: 'root',
@@ -25,7 +26,8 @@ const rootReducer = combineReducers({
     [productApi.reducerPath]: productApi.reducer,
     wishlistSlice,
     cartModalSlice,
-    cartSlice
+    cartSlice,
+    sliderSlice
 })
 
 const persistedReducer = persistReducer(persistConfig, rootReducer)
