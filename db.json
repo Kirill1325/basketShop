@@ -7,15 +7,16 @@
       "model": "Ja 1",
       "price": "€120",
       "sizes": [
-        38,
-        38.5,
-        39,
-        41,
-        41.5,
-        42,
-        43,
-        44.5,
-        45
+        "36",
+        "36.5",
+        "38",
+        "39",
+        "41",
+        "41.5",
+        "42",
+        "43",
+        "44.5",
+        "45"
       ],
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/09134330-7af0-4f20-8a3f-30efa6729b3f/ja-1-day-basketball-shoes-bCx2W3.png",
       "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/606a1c3e-5c81-4376-bbf1-2df26b8f5700/ja-1-day-basketball-shoes-bCx2W3.png",
@@ -34,15 +35,17 @@
       "model": "LeBron XXI",
       "price": "€200",
       "sizes": [
-        38,
-        38.5,
-        39,
-        41,
-        41.5,
-        42,
-        43,
-        44.5,
-        45
+        "38",
+        "38.5",
+        "39",
+        "41",
+        "41.5",
+        "42",
+        "43",
+        "44.5",
+        "45",
+        "47",
+        "47.5"
       ],
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ddf973d-e905-4362-8a2b-040e862bd273/lebron-xxi-basketball-shoes-DjB9tK.png",
       "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/185116f3-9e57-4405-a9c4-851fbdeb36fc/lebron-xxi-basketball-shoes-DjB9tK.png",
@@ -61,15 +64,13 @@
       "model": "Curry 1",
       "price": "€150",
       "sizes": [
-        38,
-        38.5,
-        39,
-        41,
-        41.5,
-        42,
-        43,
-        44.5,
-        45
+        "38",
+        "38.5",
+        "39",
+        "43",
+        "44.5",
+        "45",
+        "46"
       ],
       "img": "https://underarmour.scene7.com/is/image/Underarmour/3024397-400_DEFAULT?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850",
       "imgHover": "https://underarmour.scene7.com/is/image/Underarmour/3024397-400_A?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850",
@@ -88,15 +89,12 @@
       "model": "DAME 8",
       "price": "€900",
       "sizes": [
-        38,
-        38.5,
-        39,
-        41,
-        41.5,
-        42,
-        43,
-        44.5,
-        45
+        "38",
+        "38.5",
+        "40",
+        "42",
+        "43",
+        "45"
       ],
       "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/528823e3f84049719f5387a0c06b0840_9366/Dame_8_EXTPLY_Shoes_White_IF1514_01_standard.jpg",
       "imgHover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d37618bcae7a4f80a412757d34ac1fee_9366/Dame_8_EXTPLY_Shoes_White_IF1514_04_standard.jpg",
@@ -115,15 +113,15 @@
       "model": "KD17",
       "price": "€500",
       "sizes": [
-        38,
-        38.5,
-        39,
-        41,
-        41.5,
-        42,
-        43,
-        44.5,
-        45
+        "38",
+        "38.5",
+        "39",
+        "41",
+        "41.5",
+        "42",
+        "43",
+        "44.5",
+        "45"
       ],
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c9cc63a5-a59c-4365-9898-46a779368e1a/kd17-basketball-shoes-Vw01bx.png",
       "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a596d82f-12f6-4cf4-a4ac-279abc325c92/kd17-basketball-shoes-Vw01bx.png",
@@ -142,15 +140,15 @@
       "model": "HARDEN VOLUME 8",
       "price": "€160",
       "sizes": [
-        38,
-        38.5,
-        39,
-        41,
-        41.5,
-        42,
-        43,
-        44.5,
-        45
+        "38",
+        "38.5",
+        "39",
+        "41",
+        "41.5",
+        "42",
+        "43",
+        "44.5",
+        "45"
       ],
       "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d952e16c51a94199808a92466dc259e4_9366/Harden_Volume_8_Shoes_Pink_IE2698_01_standard.jpg",
       "imgHover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5dc87a149a394bc5954f8de8e153338f_9366/Harden_Volume_8_Shoes_Pink_IE2698_04_standard.jpg",
@@ -169,15 +167,15 @@
       "model": " G.T. Hustle 2",
       "price": "€170",
       "sizes": [
-        38,
-        38.5,
-        39,
-        41,
-        41.5,
-        42,
-        43,
-        44.5,
-        45
+        "38",
+        "38.5",
+        "39",
+        "41",
+        "41.5",
+        "42",
+        "43",
+        "44.5",
+        "45"
       ],
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c8a7aaef-3ff0-4615-b56c-36683e12a19e/gt-hustle-2-victor-wembanyama-basketball-shoes-bfDrdt.png",
       "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a6177d44-0dcd-4de0-ba6d-e6c7a8b85a67/gt-hustle-2-victor-wembanyama-basketball-shoes-bfDrdt.png",
@@ -196,15 +194,15 @@
       "model": "CRAZY 98",
       "price": "€150",
       "sizes": [
-        38,
-        38.5,
-        39,
-        41,
-        41.5,
-        42,
-        43,
-        44.5,
-        45
+        "38",
+        "38.5",
+        "39",
+        "41",
+        "41.5",
+        "42",
+        "43",
+        "44.5",
+        "45"
       ],
       "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dee4ae8459874fb9b2206ac5b4d6812c_9366/Crazy_98_Shoes_Black_IG8341_01_standard.jpg",
       "imgHover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/78d950d8e2b14b12ab184ebddd55e6f5_9366/Crazy_98_Shoes_Black_IG8341_04_standard.jpg",
@@ -223,15 +221,15 @@
       "model": " G.T. Jump 2",
       "price": "€180",
       "sizes": [
-        38,
-        38.5,
-        39,
-        41,
-        41.5,
-        42,
-        43,
-        44.5,
-        45
+        "38",
+        "38.5",
+        "39",
+        "41",
+        "41.5",
+        "42",
+        "43",
+        "44.5",
+        "45"
       ],
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/123b73fe-2040-4787-ae82-ab2490dfe0b5/gt-jump-2-mens-basketball-shoes-CZpmDQ.png",
       "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7cafa521-b8dd-472a-bbc2-60f51d107078/gt-jump-2-mens-basketball-shoes-CZpmDQ.png",
@@ -250,15 +248,15 @@
       "model": "React Hyperdunk 2017 Low",
       "price": "€130",
       "sizes": [
-        38,
-        38.5,
-        39,
-        41,
-        41.5,
-        42,
-        43,
-        44.5,
-        45
+        "38",
+        "38.5",
+        "39",
+        "41",
+        "41.5",
+        "42",
+        "43",
+        "44.5",
+        "45"
       ],
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/755d0063-9ecc-4125-994e-18169727a245/react-hyperdunk-2017-low-mens-basketball-shoe-2by1jP.png",
       "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0bfff5e9-723a-4354-a9f9-4819058cf518/react-hyperdunk-2017-low-mens-basketball-shoe-2by1jP.png",
@@ -277,15 +275,15 @@
       "model": "BYW SELECT LOW",
       "price": "€800",
       "sizes": [
-        38,
-        38.5,
-        39,
-        41,
-        41.5,
-        42,
-        43,
-        44,
-        45
+        "38",
+        "38.5",
+        "39",
+        "41",
+        "41.5",
+        "42",
+        "43",
+        "44",
+        "45"
       ],
       "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2972c3581ab42739c425fcfa47c5702_9366/BYW_Select_Low_Shoes_Yellow_ID6097_01_standard.jpg",
       "imgHover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e903d15d8e5d4be49b04fb8fc41e14ad_9366/BYW_Select_Low_Shoes_Yellow_ID6097_04_standard.jpg",
@@ -429,13 +427,32 @@
   "wishlist": [],
   "cart": [
     {
+      "id": "13",
+      "category": "Clothes",
+      "brandName": "Adidas",
+      "model": "HOOP YORK CITY SHORT SLEEVE WARM-UP TOP",
+      "price": "€70",
+      "sizes": [
+        "XS"
+      ],
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4a5c5354760745fd9a1e852bc5ccf5b1_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_21_model.jpg",
+      "imgHover": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e76b67b7fdcb43feb19fd14e19c07447_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_23_hover_model.jpg",
+      "sliderPics": [
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4a5c5354760745fd9a1e852bc5ccf5b1_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_21_model.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e76b67b7fdcb43feb19fd14e19c07447_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_23_hover_model.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3aeffbd33ca14487ac7abb729be93add_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_01_laydown.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a7897b94dbd54735a68a60494d0bb042_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_25_model.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/643f377834b740f7a20f58d21a401b9d_9366/Hoop_York_City_Short_Sleeve_Warm-Up_Top_Gender_Neutral_Blue_IT9956_42_detail.jpg"
+      ]
+    },
+    {
+      "id": "2",
       "category": "Shoes",
       "brandName": "Nike",
       "model": "LeBron XXI",
       "price": "€200",
       "sizes": [
-        38,
-        38.5
+        "38.5"
       ],
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ddf973d-e905-4362-8a2b-040e862bd273/lebron-xxi-basketball-shoes-DjB9tK.png",
       "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/185116f3-9e57-4405-a9c4-851fbdeb36fc/lebron-xxi-basketball-shoes-DjB9tK.png",
@@ -445,8 +462,26 @@
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f14064b6-10a3-468e-b24e-788106e6a9ed/lebron-xxi-basketball-shoes-DjB9tK.png",
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/56f1807f-4974-4cc6-8cd7-8fe89607480b/lebron-xxi-basketball-shoes-DjB9tK.png",
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/68985a5f-583e-4223-a679-0e50b6aa895c/lebron-xxi-basketball-shoes-DjB9tK.png"
+      ]
+    },
+    {
+      "id": "16",
+      "category": "Accesories",
+      "brandName": "Nike",
+      "model": "Club",
+      "price": "€30",
+      "sizes": [
+        "ONE SIZE"
       ],
-      "id": "2"
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/65e66038-fbc5-4aba-b411-bdff3b9c47c4/club-unstructured-futura-wash-cap-77d39b.png",
+      "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c4590fc8-bd21-4c78-8015-0d03fcd5ff83/club-unstructured-futura-wash-cap-77d39b.png",
+      "sliderPics": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/65e66038-fbc5-4aba-b411-bdff3b9c47c4/club-unstructured-futura-wash-cap-77d39b.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c4590fc8-bd21-4c78-8015-0d03fcd5ff83/club-unstructured-futura-wash-cap-77d39b.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7f331e53-49fa-4afe-9a78-80a4c920d1d9/club-unstructured-futura-wash-cap-77d39b.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/da613be2-6339-4cd3-8aa5-f8729c1781c9/club-unstructured-futura-wash-cap-77d39b.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9327576c-0d17-4dfb-9c48-2e5b77d3e5c1/club-unstructured-futura-wash-cap-77d39b.png"
+      ]
     }
   ]
 }

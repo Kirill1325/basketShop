@@ -16,6 +16,7 @@ import cartModalSlice from '../widgets/cartModal/model/CartModalSlice'
 import cartSlice from '../features/addToCart/model/cartSlice'
 import sliderSlice from '../entities/slider/model/sliderSlice'
 import filterByBrandNameSlice from '../features/filterByBrandname/model/filterByBrandnameSlice'
+import filterBySizeSlice from '../features/filterBySize/model/filterBySizeSlice'
 
 const persistConfig = {
     key: 'root',
@@ -29,7 +30,8 @@ const rootReducer = combineReducers({
     cartModalSlice,
     cartSlice,
     sliderSlice,
-    filterByBrandNameSlice
+    filterByBrandNameSlice,
+    filterBySizeSlice
 })
 
 const persistedReducer = persistReducer(persistConfig, rootReducer)

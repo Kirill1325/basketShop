@@ -2,29 +2,23 @@ import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 
 type cartSliceState = {
     productInCartState: Record<number, number[]>,
-    chosenSize: number | null
+    chosenSize: string
 }
 
 const initialState: cartSliceState = {
     productInCartState: {},
-    chosenSize: null,
+    chosenSize: '',
 }
 
 export const cartSlice = createSlice({
     name: 'cartSlice',
     initialState,
     reducers: {
-        setChosenSize(state, action: PayloadAction<number | null>) {
+        setChosenSize(state, action: PayloadAction<string>) {
             // console.log(action.payload)
             state.chosenSize = action.payload
         },
-        toggleCart(state, action: PayloadAction<number[]>){
-            // if (state.productInCartState[action.payload]) {
-            //     state.productInCartState[action.payload] = false
-            // } else {
-            //     state.productInCartState[action.payload] = true
-            // }
-        }
+       
     }
 })
 

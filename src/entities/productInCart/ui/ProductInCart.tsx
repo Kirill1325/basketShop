@@ -5,7 +5,7 @@ import { QueryActionCreatorResult, QueryDefinition, BaseQueryFn, FetchArgs, Fetc
 
 interface ProductInCartProps {
     product: productType,
-    size: number | string,
+    size: string,
     refetch: () => QueryActionCreatorResult<QueryDefinition<void, BaseQueryFn<string | FetchArgs, unknown, FetchBaseQueryError, {}, FetchBaseQueryMeta>, never, productType[], "api">>
 }
 
@@ -15,6 +15,8 @@ export const ProductInCart = ({ product, size, refetch }: ProductInCartProps) =>
 
     const [deleteFromCart] = productApi.useDeleteFromCartMutation()
     const [updateCart] = productApi.useUpdateCartMutation()
+
+    // console.log(product.sizes)
 
     // useEffect(() => {
     //     productInCart && console.log(productInCart.sizes.length)
@@ -55,7 +57,7 @@ export const ProductInCart = ({ product, size, refetch }: ProductInCartProps) =>
                 <Box sx={{ height: '100%' }}>
                     <Typography variant="subtitle1">{product.brandName} {product.model}</Typography>
                     <Typography variant="caption">{product.category}</Typography>
-                    <Typography>EU {size}</Typography>
+                    <Typography>{size !== 'ONE SIZE' && 'EU ' + size}</Typography>
                     <Typography sx={{ fontWeight: '600' }}>{product.price}</Typography>
                 </Box>
             </ListItem>

@@ -2,7 +2,6 @@ import { Accordion, AccordionSummary, Typography, AccordionDetails, FormControlL
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useAppDispatch, useAppSelector } from "../../../app/store";
 import { toggleBrandnameFilterValue } from "..";
-import { useEffect } from "react";
 
 export const FilterByBrandname = () => {
 
@@ -12,7 +11,6 @@ export const FilterByBrandname = () => {
     const handleChange = (brandname: string) => {
         dispatch(toggleBrandnameFilterValue(brandname))
     }
-
 
     return (
 

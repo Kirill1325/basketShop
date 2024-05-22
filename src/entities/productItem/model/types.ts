@@ -4,7 +4,7 @@ export type productType = {
     brandName: string,
     model: string,
     price: string,
-    sizes: Array<number | string>,
+    sizes: Array<string>,
     img: any,
     imgHover: any,
     sliderPics: any[]
