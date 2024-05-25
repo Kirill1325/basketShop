@@ -149,7 +149,7 @@ export function PrimarySearchAppBar() {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <SearchBar />
+                    
                     <Typography
                         variant="h6"
                         noWrap
@@ -158,6 +158,8 @@ export function PrimarySearchAppBar() {
                     >
                         <Link style={linkStyle} to='/'>Basketshop</Link>
                     </Typography>
+
+                    <SearchBar />
 
                     <Box sx={{ flexGrow: 1 }} />
                     <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
