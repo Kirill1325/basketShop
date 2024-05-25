@@ -37,24 +37,13 @@ export const CartModal = () => {
 
     }, initialSubtotal)
 
-
-    // useEffect(() => {
-    //     productsInCart?.map(product =>
-    //         console.log(parseInt(product.price))
-    //     )
-    // }, [subtotal])
-
-    const freeShippingAmout = 350
+    const freeShippingAmout = 150
 
     const shippingPrice = subtotal && subtotal > freeShippingAmout ? 0 : 6.99
 
-    const howMuchRemainsForFreeShipping = subtotal && freeShippingAmout - subtotal
+    const howMuchRemainsForFreeShipping = subtotal ? freeShippingAmout - subtotal : freeShippingAmout - initialSubtotal
 
     const total = subtotal && subtotal + shippingPrice
-
-    // useEffect(() => {
-    //     console.log(productsInCart)
-    // }, [productsInCart])
 
     return (
         productsInCart &&
