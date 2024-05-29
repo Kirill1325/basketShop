@@ -1,14 +1,16 @@
-import { Button } from "@mui/material"
-import { Link } from "react-router-dom"
+import { Container } from "@mui/material"
+import { ProductList } from "../../../widgets/productList"
+import { HomePageImageList } from "../../../widgets/homePageImageList"
 
 
 export const Home = () => {
+
+    const ids = [1, 3, 4, 5, 6]
+
     return (
-        <div>
-            <p>Home Page</p>
-            <Button variant="contained">
-                <Link to='/shoes'>Shoes</Link>
-            </Button>
-        </div>
+        <Container >
+            <HomePageImageList />
+            <ProductList category="Shoes" ids={ids} />
+        </Container>
     )
 }

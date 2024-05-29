@@ -424,6 +424,36 @@
       ]
     }
   ],
-  "wishlist": [],
+  "wishlist": [
+    {
+      "id": "2",
+      "category": "Shoes",
+      "brandName": "Nike",
+      "model": "LeBron XXI",
+      "price": "€200",
+      "sizes": [
+        "38",
+        "38.5",
+        "39",
+        "41",
+        "41.5",
+        "42",
+        "43",
+        "44.5",
+        "45",
+        "47",
+        "47.5"
+      ],
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ddf973d-e905-4362-8a2b-040e862bd273/lebron-xxi-basketball-shoes-DjB9tK.png",
+      "imgHover": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/185116f3-9e57-4405-a9c4-851fbdeb36fc/lebron-xxi-basketball-shoes-DjB9tK.png",
+      "sliderPics": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ddf973d-e905-4362-8a2b-040e862bd273/lebron-xxi-basketball-shoes-DjB9tK.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/185116f3-9e57-4405-a9c4-851fbdeb36fc/lebron-xxi-basketball-shoes-DjB9tK.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f14064b6-10a3-468e-b24e-788106e6a9ed/lebron-xxi-basketball-shoes-DjB9tK.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/56f1807f-4974-4cc6-8cd7-8fe89607480b/lebron-xxi-basketball-shoes-DjB9tK.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/68985a5f-583e-4223-a679-0e50b6aa895c/lebron-xxi-basketball-shoes-DjB9tK.png"
+      ]
+    }
+  ],
   "cart": []
 }

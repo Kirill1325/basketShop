@@ -24,16 +24,20 @@ export const ProductItem = ({ product }: ProductItemProps) => {
         position: 'relative',
         display: 'flex',
         flexDirection: 'column',
-        maxWidth: 345,
-        minHeight: 360,
+        // maxWidth: 345,
+        maxWidth: {
+          sm: 300,
+          md: 345
+        },
+        height: 360,
         boxShadow: 0,
         cursor: 'pointer',
         '&:hover': {
           boxShadow: 3,
         },
       }}
-        onMouseEnter={() => setIsShown(true)}
-        onMouseLeave={() => setIsShown(false)}
+      onMouseEnter={() => setIsShown(true)}
+      onMouseLeave={() => setIsShown(false)}
       >
         <CardMedia
           sx={{ height: 200 }}
@@ -51,13 +55,14 @@ export const ProductItem = ({ product }: ProductItemProps) => {
         {isShown &&
           <CardActions sx={{ marginTop: 'auto' }}>
             <AddToWishlistIcon product={product} />
-            <Grid sx={{ position: 'absolute', bottom: 0, left: -20 }} container >
+            <Grid sx={{ position: 'absolute', bottom: 0, left: -20 }} container  >
               {product.sizes.map(size =>
-                <Grid item md={2} key={size}>
+                <Grid item sm={4} md={3} key={size}>
                   <Button
                     sx={{
-                      padding: 0,
-                      margin: 0
+                      minHeight: 0,
+                      // minWidth: 0,
+                      padding: 0
                     }}
                   >{size}</Button>
                 </Grid>

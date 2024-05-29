@@ -16,7 +16,7 @@ import MoreIcon from '@mui/icons-material/MoreVert';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import { Link } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../../../app/store';
-import { toggleModal } from '../../cartModal/model/CartModalSlice';
+import { toggleCartModal } from '../../cartModal/model/CartModalSlice';
 import { productApi } from '../../../entities/productItem';
 import { SearchBar } from '../../../features/search';
 
@@ -34,7 +34,7 @@ export function PrimarySearchAppBar() {
     const { refetch } = productApi.useGetAllProductsFromCartQuery()
 
     const handleCartClick = () => {
-        dispatch(toggleModal())
+        dispatch(toggleCartModal())
         refetch()
     }
 

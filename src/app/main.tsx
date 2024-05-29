@@ -15,6 +15,7 @@ import { persistStore } from 'redux-persist'
 import { CartModal } from '../widgets/cartModal/index.ts'
 import { ThemeProvider } from '@emotion/react'
 import { createTheme } from '@mui/material'
+import { MobileFilterBar } from '../widgets/mobileFilterBar/index.ts'
 
 let persistor = persistStore(store)
 
@@ -32,6 +33,7 @@ const Layout = () => (
     <Header />
     <Outlet />
     <CartModal />
+    <MobileFilterBar />
   </>
 );
 

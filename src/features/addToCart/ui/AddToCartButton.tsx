@@ -57,7 +57,7 @@ export const AddToCartButton = ({ product }: AddToCartButtonProps) => {
 
             }
         }
-        dispatch(setChosenSize(null))
+        dispatch(setChosenSize(''))
         refetch()
     }
 

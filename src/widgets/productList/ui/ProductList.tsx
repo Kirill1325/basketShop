@@ -1,7 +1,6 @@
 import { Box, Button, Container, Grid, Typography } from '@mui/material'
 import { productApi, ProductItem } from '../../../entities/productItem'
 import { useAppDispatch, useAppSelector } from '../../../app/store'
-import { Category } from '@mui/icons-material'
 import { toggleMobileFilterBarModal } from '../../mobileFilterBar/model/mobileFilterBarSlice'
 
 interface ProductListProps {
@@ -9,7 +8,7 @@ interface ProductListProps {
   ids?: number[]
 }
 
-export const ProductList = ({ category, ids }: ProductListProps) => {
+export const ProductList = ({ category }: ProductListProps) => {
 
   const { data: products } = productApi.useGetAllProductsQuery()
 

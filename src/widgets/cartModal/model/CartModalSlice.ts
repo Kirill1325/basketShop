@@ -1,25 +1,25 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 type cartModalSliceState = {
-    isOpened: boolean
+    isCartModalOpened: boolean
 }
 
 const initialState: cartModalSliceState = {
-    isOpened: false
+    isCartModalOpened: false
 }
 
 export const cartModalSlice = createSlice({
     name: 'cartModalSlice',
     initialState,
     reducers: {
-        toggleModal(state) {
-            state.isOpened = !state.isOpened
+        toggleCartModal(state) {
+            state.isCartModalOpened = !state.isCartModalOpened
         }
     }
 })
 
 const { actions, reducer } = cartModalSlice
 
-export const { toggleModal } = actions
+export const { toggleCartModal } = actions
 
 export default reducer

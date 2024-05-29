@@ -11,7 +11,16 @@ interface DenseMenuProps {
 
 export function DenseMenu({ sizesGrid }: DenseMenuProps) {
     return (
-        <Paper elevation={0} sx={{ width: 330 }}>
+        <Paper
+            elevation={0}
+            sx={{
+                width: 330,
+                display: {
+                    xs: 'none',
+                    sm: 'none',
+                    md: 'block'
+                }
+            }}>
             <MenuList dense>
 
                 <FilterByBrandname />

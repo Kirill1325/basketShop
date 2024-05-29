@@ -18,6 +18,7 @@ import sliderSlice from '../entities/slider/model/sliderSlice'
 import filterByBrandNameSlice from '../features/filterByBrandname/model/filterByBrandnameSlice'
 import filterBySizeSlice from '../features/filterBySize/model/filterBySizeSlice'
 import searchSlice from '../features/search/model/searchSlice'
+import mobileFilterBarSlice from '../widgets/mobileFilterBar/model/mobileFilterBarSlice'
 
 const persistConfig = {
     key: 'root',
@@ -33,7 +34,8 @@ const rootReducer = combineReducers({
     sliderSlice,
     filterByBrandNameSlice,
     filterBySizeSlice,
-    searchSlice
+    searchSlice,
+    mobileFilterBarSlice
 })
 
 const persistedReducer = persistReducer(persistConfig, rootReducer)

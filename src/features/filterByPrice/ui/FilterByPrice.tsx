@@ -9,9 +9,9 @@ export const FilterByPrice = () => {
     const { priceValue } = useAppSelector(state => state.sliderSlice)
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        parseInt(e.target.value) === priceValue[0]
-            ? dispatch(setSliderPriceValue([parseInt(e.target.value), priceValue[1]]))
-            : dispatch(setSliderPriceValue([priceValue[0], parseInt(e.target.value)]))
+        parseInt(e.target.value) === (priceValue as number[])[0]
+            ? dispatch(setSliderPriceValue([parseInt(e.target.value), (priceValue as number[])[1]]))
+            : dispatch(setSliderPriceValue([(priceValue as number[])[0], parseInt(e.target.value)]))
     }
 
     return (
@@ -29,7 +29,7 @@ export const FilterByPrice = () => {
                         size="small"
                         label="From"
                         variant="outlined"
-                        value={priceValue[0]}
+                        value={(priceValue as number[])[0]}
                         onChange={(e) => handleChange(e)}
                     />
                     <TextField
@@ -37,7 +37,7 @@ export const FilterByPrice = () => {
                         size="small"
                         label="To"
                         variant="outlined"
-                        value={priceValue[1]}
+                        value={(priceValue as number[])[1]}
                         onChange={(e) => handleChange(e)}
                     />
                 </Box>

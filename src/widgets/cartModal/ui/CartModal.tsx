@@ -2,7 +2,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { useAppDispatch, useAppSelector } from '../../../app/store';
-import { toggleModal } from '../model/CartModalSlice';
+import { toggleCartModal } from '../model/CartModalSlice';
 import { productApi } from '../../../entities/productItem';
 import { Button, Divider, List, ListItem, Stack, TextField } from '@mui/material';
 import { ProductInCart } from '../../../entities/productInCart';
@@ -19,7 +19,7 @@ const style = {
 
 export const CartModal = () => {
 
-    const { isOpened } = useAppSelector(state => state.cartModalSlice)
+    const { isCartModalOpened } = useAppSelector(state => state.cartModalSlice)
     const dispatch = useAppDispatch()
 
     const { data: productsInCart, refetch } = productApi.useGetAllProductsFromCartQuery()
@@ -32,8 +32,6 @@ export const CartModal = () => {
         } else {
             return accumulator + parseInt(curValue.price.slice(1))
         }
-
-
 
     }, initialSubtotal)
 
@@ -48,8 +46,8 @@ export const CartModal = () => {
     return (
         productsInCart &&
         <Modal
-            open={isOpened}
-            onClose={() => dispatch(toggleModal())}
+            open={isCartModalOpened}
+            onClose={() => dispatch(toggleCartModal())}
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description"
         >
@@ -71,7 +69,7 @@ export const CartModal = () => {
                                 <Link
                                     to={`/${product.category}/${product.id}`}
                                     style={{ textDecoration: 'none', color: 'black' }}
-                                    onClick={() => dispatch(toggleModal())}>
+                                    onClick={() => dispatch(toggleCartModal())}>
                                     <ProductInCart product={product} size={size} refetch={refetch} />
                                 </Link>
                             </Box>
