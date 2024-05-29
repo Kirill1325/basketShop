@@ -13,7 +13,7 @@ export function RangeSlider() {
     const { priceValue } = useAppSelector(state => state.sliderSlice)
     const dispatch = useAppDispatch()
 
-    const handleChange = (event: Event, newValue: number[]) => {
+    const handleChange = (event: Event, newValue: number | number[]) => {
         // setValue(newValue as number[]);
         dispatch(setSliderPriceValue(newValue))
     };

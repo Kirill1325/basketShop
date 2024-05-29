@@ -1,7 +1,7 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 
 interface sliderSliceState {
-    priceValue: number[],
+    priceValue: number | number[],
 }
 
 const initialState: sliderSliceState = {
@@ -12,10 +12,10 @@ export const sliderSlice = createSlice({
     name: 'sliderSlice',
     initialState,
     reducers: {
-        setSliderPriceValue(state, action: PayloadAction<number[]>) {
+        setSliderPriceValue(state, action: PayloadAction<number | number[]>) {
             state.priceValue = action.payload
         },
-        
+
     }
 })
 
